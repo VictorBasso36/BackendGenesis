@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_emp_comp_icones_plantas",
+  "info": {
+    "displayName": "Icones_Planta"
+  },
+  "options": {},
+  "attributes": {
+    "TextIcon": {
+      "type": "string"
+    },
+    "ImageIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

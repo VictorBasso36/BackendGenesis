@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_emp_comp_cards_plantas",
+  "info": {
+    "displayName": "cardsPlanta"
+  },
+  "options": {},
+  "attributes": {
+    "ImageIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "TextIcon": {
+      "type": "string"
+    }
+  }
+}

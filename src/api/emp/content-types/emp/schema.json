@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emps",
+  "info": {
+    "singularName": "emp",
+    "pluralName": "emps",
+    "displayName": "Emp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "DescricaoCard": {
+      "type": "text"
+    },
+    "Preco_Destaque": {
+      "type": "text"
+    },
+    "Icones": {
+      "displayName": "Icones",
+      "type": "component",
+      "repeatable": true,
+      "component": "emp-comp.icones"
+    },
+    "Titulo_LP": {
+      "type": "text"
+    },
+    "DescricaoCompleta": {
+      "type": "text"
+    },
+    "CarrouselUm": {
+      "displayName": "CarrouselUm",
+      "type": "component",
+      "repeatable": true,
+      "component": "emp-comp.carrousel-um"
+    },
+    "FinanciamentoCaixa": {
+      "type": "boolean",
+      "default": false
+    },
+    "Planta": {
+      "displayName": "Plantas",
+      "type": "component",
+      "repeatable": false,
+      "component": "emp-comp.plantas"
+    },
+    "TituloPlanta": {
+      "type": "string"
+    },
+    "ImagemPrincipal": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

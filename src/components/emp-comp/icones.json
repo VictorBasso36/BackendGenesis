@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_emp_comp_icones",
+  "info": {
+    "displayName": "Icones",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "TextIcon": {
+      "type": "string"
+    }
+  }
+}

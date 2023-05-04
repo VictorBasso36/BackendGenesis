@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_emp_comp_carrousel_ums",
+  "info": {
+    "displayName": "CarrouselUm"
+  },
+  "options": {},
+  "attributes": {
+    "Imagens": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

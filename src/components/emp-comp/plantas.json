@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_emp_comp_plantas",
+  "info": {
+    "displayName": "Plantas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ImagePlanta": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descricaoPlanta": {
+      "type": "text"
+    },
+    "MetragemPlanta": {
+      "type": "string"
+    },
+    "PrecoPlanta": {
+      "type": "string"
+    },
+    "IconesPlanta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "emp-comp.icones-planta"
+    }
+  }
+}
